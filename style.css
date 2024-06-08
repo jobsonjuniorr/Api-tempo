@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One";
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    font-family: "Poetsen One";
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/GNNXM45aIAApQDl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+
+}
+
+.conteudo-main{
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    max-width:400px;
+    max-height:400px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 30px;
+   
+}
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(48, 43, 43);
+    width: calc(100% - 50px);
+    color: white;
+}
+.button-buscar{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgb(48, 43, 43);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    float: right;
+    
+}
+.buscar{
+    width: 20px;
+    height: 20px;
+    font-size: 50px;
+    color: white;
+   
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+.texto-cidade{
+    color: white;
+    font-size: 22px;
+    font-weight: 400px;
+}
+.tempo{
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+}
+.caixa-menor{
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.texto-previsao{
+    color: white;
+    text-transform: capitalize;
+}
+.texto-umidade{
+    color: white;
+    margin-top: 20px;
+}
