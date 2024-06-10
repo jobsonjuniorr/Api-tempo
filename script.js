@@ -1,4 +1,5 @@
-const key = "956c06ab69a9e8256164fc1b4f09ac6b"
+//Na variável key insira uma chave valida, eu utilizei a do openwathermap basta apenas criar uma conta no site é de graça, apenas cria e vai nas configurações, pega a chave e cola no espaço vazio da variável.
+const key = "";
 
 function colocarDadosNaTela(dados){
       console.log(dados)
